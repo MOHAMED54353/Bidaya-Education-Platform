@@ -1,16 +1,35 @@
-# React + Vite
+# Bidaya | Educational Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bidaya is an educational platform designed to provide primary school students with an accessible and engaging learning experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive user interface.
+* Educational courses and content.
+* Educational video section.
+* Image gallery.
+* Login and registration pages.
+* Arabic interface.
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript
+* HTML5
+* CSS3
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+* Node.js
+* npm
+
+## Purpose
+
+Bidaya aims to make educational content accessible through a simple, user-friendly, and responsive platform for primary school students.
+
+---
+
+Developed by [Muhammed Elsayed](https://github.com/MOHAMED54353).

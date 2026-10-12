@@ -1,0 +1,135 @@
+.features-section {
+    background: #fff;
+    padding: 5rem 2rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.features-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.features-header .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #EBF5FF;
+    color: #185FA5;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #B5D4F4;
+}
+
+.features-header h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 15px 0 10px;
+    color: #0F172A;
+}
+
+.features-header h2 span {
+    color: #4F9CF9;
+}
+
+.features-header p {
+    color: #64748B;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.feature-card {
+    background: #F8FBFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(79, 156, 249, 0.18);
+    border-color: #B5D4F4;
+}
+
+.icon-box {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    font-size: 26px;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover .icon-box {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transform: scale(1.05);
+}
+
+.feature-card h3 {
+    font-size: 17px;
+    font-weight: 800;
+    color: #0F172A;
+    margin-bottom: 8px;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #64748B;
+    line-height: 1.7;
+}
+
+.features-cta {
+    background: #EBF5FF;
+    border: 1px solid #B5D4F4;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-cta p {
+    color: #185FA5;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.features-cta h3 {
+    color: #0C447C;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.features-cta button {
+    background: #4F9CF9;
+    color: #fff;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.features-cta button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(79, 156, 249, 0.25);
+}

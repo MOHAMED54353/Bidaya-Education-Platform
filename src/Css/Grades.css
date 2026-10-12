@@ -1,0 +1,140 @@
+.grades-section {
+    background: #F8FBFF;
+    padding: 5rem 2rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.grades-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.grades-header .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #EBF5FF;
+    color: #185FA5;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #B5D4F4;
+}
+
+.grades-header h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 12px 0;
+    color: #0F172A;
+}
+
+.grades-header h2 span {
+    color: #4F9CF9;
+}
+
+.grades-header p {
+    color: #64748B;
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* GRID */
+.grades-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+/* CARD */
+.grade-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #E2E8F0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.grade-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(79, 156, 249, 0.18);
+    border-color: #4F9CF9;
+}
+
+/* TOP */
+.grade-top {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+.grade-number {
+    position: absolute;
+    left: 14px;
+    bottom: -10px;
+    font-size: 60px;
+    font-weight: 900;
+    opacity: 0.18;
+}
+
+/* BODY */
+.grade-body {
+    padding: 1.25rem;
+}
+
+.subjects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 1rem;
+}
+
+.subject-pill {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+.grade-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F1F5F9;
+    padding-top: 1rem;
+}
+
+.lessons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #94A3B8;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #4F9CF9;
+    transition: 0.2s;
+}
+
+.grade-card:hover .cta {
+    transform: translateX(-4px);
+}
